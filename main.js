@@ -3,7 +3,7 @@
 //  main.js — Ahmadou Bamba LO — Groupe 5 ISI
 // =============================================
 
-// 1. Menu mobile : afficher/masquer la Navigation
+// 1. Menu mobile : afficher/Masquer la Navigation
 const navLinks = document.querySelector('.nav-links');
 const navLogo = document.querySelector('.nav-logo');
 
