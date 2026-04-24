@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notre Mission — SIAB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .project-section { margin-bottom: 64px; }
+    .project-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.8rem; font-weight: 800;
+      color: var(--navy); letter-spacing: -1px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 3px solid var(--accent);
+      display: inline-block;
+    }
+    .project-section p {
+      font-size: 1rem; line-height: 1.8;
+      color: var(--muted); font-weight: 300;
+      margin-bottom: 16px;
+    }
+    .objectifs-list { list-style: none; margin-top: 16px; }
+    .objectifs-list li {
+      padding: 14px 20px;
+      background: var(--light);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-left: 4px solid var(--blue);
+    }
+    .objectifs-list li::before { content: "✓"; color: var(--accent2); font-weight: 800; font-size: 1rem; }
+    .tech-badges { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+    .badge {
+      background: var(--navy); color: white;
+      padding: 8px 20px; border-radius: 100px;
+      font-size: 0.85rem; font-weight: 600;
+      font-family: var(--font-display);
+    }
+    .badge.outline {
+      background: transparent; color: var(--blue);
+      border: 2px solid var(--blue);
+    }
+    .phases { margin-top: 16px; }
+    .phase {
+      display: flex; gap: 20px; align-items: flex-start;
+      padding: 24px; background: var(--light);
+      border-radius: 12px; margin-bottom: 12px;
+    }
+    .phase-num {
+      font-family: var(--font-display);
+      font-size: 2rem; font-weight: 800;
+      color: rgba(26,86,160,0.15);
+      min-width: 50px; line-height: 1;
+    }
+    .phase h4 { font-family: var(--font-display); font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+    .phase p { font-size: 0.88rem; color: var(--muted); margin: 0; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">SIAB<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="mission.html" class="active">Notre Mission</a></li>
+      <li><a href="equipe.html">L'Équipe</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-badge">Groupe 5 · ISI</div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="hero-tag">🎯 Notre Mission</span>
+      <h1>Notre Mission SIAB</h1>
+      <p>Un système intelligent conçu pour guider les bacheliers sénégalais dans leur orientation post-bac, en leur proposant des recommandations adaptées à leur profil.</p>
+    </div>
+  </section>
+
+  <div class="page-content">
+
+    <div class="project-section">
+      <h2>Problématique</h2>
+      <p>Chaque année, des milliers de bacheliers sénégalais se retrouvent désorientés face aux multiples possibilités qui s'offrent à eux après l'obtention de leur diplôme. Le manque d'information, l'absence de conseils personnalisés et la complexité du système éducatif génèrent des erreurs d'orientation coûteuses.</p>
+      <p>SIAB répond à ce besoin en proposant une plateforme numérique intelligente, accessible et adaptée au contexte local.</p>
+    </div>
+
+    <div class="project-section">
+      <h2>Objectifs du projet</h2>
+      <ul class="objectifs-list">
+        <li>Aider les bacheliers à identifier leurs points forts et leurs intérêts</li>
+        <li>Recommander des filières adaptées selon le profil de l'étudiant</li>
+        <li>Fournir des informations sur les établissements disponibles au Sénégal</li>
+        <li>Proposer des ressources pour préparer les dossiers d'inscription</li>
+        <li>Permettre un suivi des démarches d'orientation</li>
+      </ul>
+    </div>
+
+    <div class="project-section">
+      <h2>Technologies utilisées</h2>
+      <div class="tech-badges">
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS3</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge outline">GitHub</span>
+        <span class="badge outline">Trello</span>
+      </div>
+    </div>
+
+    <div class="project-section">
+      <h2>Phases du projet</h2>
+      <div class="phases">
+        <div class="phase">
+          <div class="phase-num">01</div>
+          <div>
+            <h4>Structuration de l'équipe</h4>
+            <p>Définition des rôles, du cadre de communication et de la méthodologie de travail.</p>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">02</div>
+          <div>
+            <h4>Planification sur Trello</h4>
+            <p>Découpage du projet en tâches, priorisation et répartition entre les membres.</p>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">03</div>
+          <div>
+            <h4>Mise en place GitHub</h4>
+            <p>Création du repository collaboratif, structure du projet, contributions de chaque membre.</p>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">04</div>
+          <div>
+            <h4>Développement du site vitrine</h4>
+            <p>Production des pages HTML/CSS réparties entre les membres de l'équipe.</p>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">05</div>
+          <div>
+            <h4>Analyse réflexive</h4>
+            <p>Bilan collectif sur le fonctionnement de l'équipe et les axes d'amélioration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-logo">SIAB<span class="dot">.</span></div>
+    <p>Groupe 5 · ISI Dakar · Atelier Créatif 2026</p>
+    <p class="footer-members">Demba BOMOU · Ahmadou Bamba LO · Al Ousseynou BAO · Mbenda Fall GUEYE</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
