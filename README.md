@@ -6,7 +6,7 @@
 
 ## 📌 Présentation
 
-**SIAB** est une plateforme web conçue pour aider les bacheliers sénégalais à prendre des décisions éclairées concernant leur orientation post-bac. Le projet propose un système intelligent qui analyse le profil de l'étudiant et recommande des filières et établissements adaptés.
+**SIAB** est une Plateforme web conçue pour aider les bacheliers sénégalais à prendre des décisions éclairées concernant leur orientation post-bac. Le projet propose un système intelligent qui analyse le profil de l'étudiant et recommande des filières et établissements adaptés.
 
 Ce dépôt contient le **site vitrine** du projet, réalisé dans le cadre de l'atelier créatif de l'ISI Dakar.
 
