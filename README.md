@@ -17,7 +17,7 @@ Ce dépôt contient le **site vitrine** du projet, réalisé dans le cadre de l'
 | Membre | Rôle |
 |--------|------|
 | **Demba BOMOU** | Chef de projet / Coordinateur |
-| **Ahmadou Bamba LO** | Développeur principal (Frontend) |
+| **Ahmadou Bamba LO** | Développeur principal (BackEnd) |
 | **Al Ousseynou BAO** | Contenu & Structure |
 | **Mbenda Fall GUEYE** | GitHub & Documentation |
 
